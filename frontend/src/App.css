@@ -78,6 +78,7 @@ main {
   margin-top: 0;
   margin-bottom: 0.5rem;
   color: #555;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -94,6 +95,7 @@ main {
   border-radius: 3px;
   margin-bottom: 2px;
   transition: background-color 0.2s;
+  border-bottom: 1px solid #ececec;
 }
 
 .sidebar li:hover {
@@ -209,7 +211,7 @@ main {
 .cell.empty {
   background-color: white;
   background-image:
-    repeating-linear-gradient(90deg,
+    repeating-linear-gradient(135deg,
       rgba(180, 180, 180, 0.2) 0,
       rgba(180, 180, 180, 0.2) 2px,
       transparent 2px,
