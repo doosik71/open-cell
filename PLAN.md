@@ -58,16 +58,3 @@ open-cell/
 
 - Implement `POST /api/save`: Commit memory changes to the physical Excel file.
 - Logic for backup: Before saving `data/file.xlsx`, copy to `data/file/YYYYMMDDHHMMSS.xlsx`.
-
-## 4. Key Questions / Considerations
-
-- **UI Framework:** Should I use React for easier state management of the grid?
-- **Excel Library:** `exceljs` supports better styling and file structure preservation.
-- **State Persistence:** Should unsaved changes be kept in a `.tmp` file or just in-memory?
-- **User Identification:** How to distinguish between "Self" and "Other" during conflict resolution?
-
-## 5. Next Steps
-
-1. Initialize `package.json` and install dependencies.
-2. Create directory structure.
-3. Implement basic file listing API.
